@@ -1,0 +1,1 @@
+$(".change-btn").on("tap",function(){location.href="../order/booking_change.html"}),$(".yes-btn").on("tap",function(){location.href="../order/booking_change.html"}),$(".no-btn").on("tap",function(){location.href="../order/booking_change.html"}),$(".icon-back").on("tap",function(){location.href="../order/order.html"});

@@ -1,0 +1,1 @@
+$(".cells").on("swipeLeft",function(){$(this).animate({right:"65px"},500)}),$(".cells").on("swipeRight",function(){$(this).animate({right:"0px"},500)}),$(".cell_delete").on("touchstart",function(){$(this).parent().remove()}),$(".foot-right").on("tap",function(){location.href="../order/booking_detail.html"});
