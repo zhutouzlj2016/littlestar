@@ -14,6 +14,6 @@ $('.header-publish' ).on('tap', function(){
 	$('.publish-alert' ).show();
 
 })
-$('.confirm' ).on('tap', function(){
-	location.href = '../publish/publish.html'
-})
+//$('.confirm' ).on('tap', function(){
+//	location.href = '../publish/publish.html'
+//})

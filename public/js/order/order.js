@@ -107,3 +107,7 @@ $('.order-btn').on('tap', function(){
 	location.href = '../order/order_detail.html'
 });
 
+$('.publish-alert .confirm').on('tap', function(){
+	$('.publish-alert' ).hide();
+	$('.mask' ).hide();
+});
