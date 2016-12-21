@@ -1,0 +1,360 @@
+body
+	background #EFEFF4
+	color #323232
+.top-head
+	height 40px
+	padding-top 20px
+	line-height 40px
+	position fixed
+	top 0px
+	left 0px
+	right 0px
+	background url(../../img/home/banner_img_shadow@2x.png) repeat-x left top
+	background-size 375px 64px
+	z-index 5
+	color #F9F9F9
+	text-align center
+	&.move
+		background #3C3C3B
+	.top-address
+		display inline-block
+		text-align left
+		position absolute
+		top 20px
+		height 40px
+		width 40px
+		background url(../../img/home/nav_icon_down@2x.png) no-repeat 32px center
+		background-size 8px 4px
+		font-size 14px
+		left 15px
+	.banner-name
+		display inline-block
+		height 40px
+		font-size 18px
+
+
+#banner
+	width 375px
+	height 320px
+	overflow hidden
+	margin 0 auto
+	position relative
+	#img
+		width 1000%
+		position absolute
+		img
+			float left
+			width 375px
+			height 320px
+	#button
+		position absolute
+		height 15px
+		width 60px
+		z-index 2
+		bottom 20px
+		left 50%
+		margin-left -30px
+		span
+			float left
+			width 15px
+			height 15px
+			background url(../../img/home/banner_icon_point_nor@2x.png) no-repeat center
+			background-size 10px
+		.on
+			background url(../../img/home/banner_icon_point_press@2x.png) no-repeat center
+			background-size 10px
+
+	.banner-input
+		position absolute
+		top 75px
+		left 15px
+		right 15px
+		height 35px
+		background #F1F1F1
+		border-radius 3px
+		text-align center
+		line-height 35px
+		font-size 12px
+		color #CACACA
+		&.move_input
+			position fixed
+			top 20px
+			right 15px
+			left 75px
+			z-index 6
+		.input-icon
+			display inline-block
+			width 20px
+			height 35px
+			background url(../../img/home/banner_icon_search@2x.png) no-repeat right center
+			background-size 12px
+			vertical-align bottom
+.input_out
+	display none
+	background #fff
+	z-index 10
+	position fixed
+	top 0
+	left 0
+	right 0
+	bottom 0
+	.input_out_search
+		display flex
+		padding-top 25px
+		.input_out_input
+			flex 1
+			height 30px
+			margin-left 15px
+			border none
+			outline none
+			line-height 30px
+			padding-left 30px
+			color #C0C0C0
+			background url(../../img/home/banner_icon_search@2x.png) no-repeat left 5px center
+			background-size 16px
+			background-color #F1F1F1
+			font-size 12px
+			border-radius 4px
+		.input_out_word
+			padding 0px 10px 0px 20px
+			color #F08863
+			line-height 30px
+			font-size 14px
+			
+
+		
+.query_box
+	background #fff
+	margin-top 10px
+	display flex
+	height 44px
+	border-bottom 1px solid #EBEBEE
+	&.query_move
+		position fixed
+		top 60px
+		left 0px
+		right 0px
+		margin-top 0px
+	.query_block
+		height 44px
+		flex 8
+		position relative
+		&:after
+			content ''
+			width 1px
+			height 20px
+			position absolute
+			top 12px
+			right 0px
+			background-color #F0F0F2
+		.text
+			display block
+			height 16px
+			line-height 16px
+			text-align center
+			margin-top 10px
+			font-size 12px
+			color #646464
+			&.text_down
+				color #EC6C37
+		.icon
+			display block
+			height 10px
+			background url(../../img/home/content_icon02_nor@2x.png) no-repeat center
+			background-size 7px 4px
+			&.icon_down
+				background url(../../img/home/content_icon02_press@2x.png) no-repeat center
+				background-size 7px 4px
+	.query_price
+		flex 5
+		background url(../../img/home/content_icon01_nor@2x.png) no-repeat center
+		background-size 18px 18px
+		&.active-down
+			background url(../../img/home/content_icon01_down@2x.png) no-repeat center
+			background-size 18px 18px
+		&.active-up
+			background url(../../img/home/content_icon01_litre@2x.png) no-repeat center
+			background-size 18px 18px
+			
+.down_box
+	display none
+	.mask
+		position fixed
+		top 105px
+		left 0px
+		right 0px
+		bottom 0px
+		background rgba(60,60,60,0.5)
+		z-index 4
+		.ares_down_box
+			background #F0F0F0
+			padding-bottom 15px
+			text-align center
+			font-size 14px
+			.ares_list
+				height 45px
+				line-height 45px
+				&.active
+					background #fff
+			.search
+				height 30px
+				padding 7px 0px
+				line-height 45px
+				text-align center
+				position relative
+				.search_box
+					height 30px
+					.search_input
+						display inline-block
+						vertical-align text-bottom
+						width 70px
+						height 28px
+						line-height 28px
+						background #fff
+						border 1px solid #E4E5E7
+						border-radius 4px
+						margin-top 0px
+						outline none
+						text-align center
+					.search_line
+						width 20px
+						height 1px
+						display inline-block
+						margin 14px 10px
+						background #DCDCDC
+				.search_button
+					width 55px
+					outline none
+					height 32px
+					border 1px solid #E4E5E7
+					border-radius 4px
+					background #fff
+					line-height 28px
+					position absolute
+					top 7px
+					right 10px
+					box-sizing border-box
+					font-size 12px
+		.area_down_box
+			height 400px
+			display flex
+			.area_down_area
+				flex 1
+
+				background #F0F0F0
+				overflow scroll
+				.area_list
+					padding-left 15px
+					height 45px
+					line-height 45px
+					font-size 14px
+					&.active
+						background #fff
+					
+			.area_down_project
+				flex 1
+
+				padding-left 15px
+				background #fff
+				.project_list
+					height 44px
+					line-height 45px
+					font-size 14px
+					border-bottom 1px solid #F6F6F6
+
+
+.cells
+	background-color #fff
+	padding 15px
+	margin-bottom 5px
+	border-top 1px solid #E9EAED
+	border-bottom 1px solid #E9EAED
+	.cell
+		padding-left 130px
+		height 85px
+		background url(../../img/home/content_img_list@2x.png) no-repeat left center
+		background-size 120px 85px
+		font-size 12px
+		.cell-header
+			display flex
+			.cell-header-left
+				flex 7
+				height 30px
+				line-height 30px
+				font-size 16px
+			.cell-header-right
+				flex 1
+				height 30px
+				background url(../../img/home/collect_icon_nor@2x.png) no-repeat right center
+				background-size 14px 13px
+
+		.cell-content
+			margin 0px
+			color #828282
+		.cell-botton
+			height 16px
+			line-height 16px
+			width 55px
+			border 1px solid #EB7946
+			color #EB7946
+			border-radius 3px
+			margin 5px 0px
+			text-align center
+		.cell-foot
+			color #828282
+			display flex
+			.foot-left
+				flex 4
+				.foot-style
+					color #EB7946
+			.foot-right
+				flex 3	
+				text-align right
+.move_top
+	position fixed
+	width 60px
+	height 60px
+	right 20px
+	bottom 90px
+	background url(../../img/home/content_btn_back@2x.png) no-repeat center
+	background-size 50px
+.bottom
+	width 100%
+	height 50px
+	position fixed
+	bottom 0px
+	left 0px
+	display flex
+	color #B6B6B6
+	background #fff
+	line-height 74px
+	font-size 12px
+	text-align center
+	z-index 5
+	.bottom_navbar1
+		color #EE7230
+		height 50px
+		flex 1
+		background url(../../img/bottom_nav/bottom_press_icon04@2x.png) no-repeat center 6px
+	
+	.bottom_navbar2
+		height 50px
+		flex 1
+		background url(../../img/bottom_nav/bottom_nor_icon03@2x.png) no-repeat center 6px
+	.bottom_navbar3
+		height 50px
+		flex 1
+		background: url(../../img/bottom_nav/bottom_icon05@2x.png) no-repeat center
+	
+	.bottom_navbar4
+		height 50px
+		flex 1
+		background: url(../../img/bottom_nav/bottom_nor_icon02@2x.png) no-repeat center 6px
+	
+	.bottom_navbar5
+		height 50px
+		flex 1
+		background: url(../../img/bottom_nav/bottom_nor_icon01@2x.png) no-repeat center 6px
+		
+		
+					
