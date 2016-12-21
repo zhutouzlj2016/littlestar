@@ -1,16 +1,16 @@
-/**
- * Created by Administrator on 2016/12/19 0019.
- */
 
-$('.index-icon').on('tap', function(){
+$('.bottom_navbar1').on('tap', function(){
 	location.href = '../index/index.html'
 });
-$('.order-icon').on('tap', function(){
+$('.bottom_navbar2').on('tap', function(){
 	location.href = '../order/order.html'
 });
-$('.news-icon').on('tap', function(){
-	location.href = '../msg/msg.html'
+$('.bottom_navbar3').on('tap', function(){
+	location.href = '../publish/publish.html'
 });
-$('.info-icon').on('tap', function(){
-	location.href = '../info/info.html'
+$('.bottom_navbar4').on('tap', function(){
+	location.href = '../information/information_collection.html'
+});
+$('.bottom_navbar5').on('tap', function(){
+	location.href = '../info/nologin.html'
 });
