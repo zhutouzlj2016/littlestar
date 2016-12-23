@@ -1,0 +1,1 @@
+$(".tab_bar-cell").on("touchstart",function(){$(".tab_bar-cell").removeClass("active"),$(this).addClass("active");var a=$(this).index();$(".info").hide(),$(".info").eq(a).show()});
