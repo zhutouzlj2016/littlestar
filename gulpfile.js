@@ -1,4 +1,4 @@
-//首先引入gulp模块
+﻿//首先引入gulp模块
 var gulp = require('gulp');
 
 //引入 gulp-stylus插件
@@ -15,7 +15,7 @@ var nodemon = require('gulp-nodemon')
 gulp.task('nodemon',function(ab){
 	var ft = false;
 	return nodemon({
-		script:'./app.js'
+		script:'./server.js'
 	}).on('start',function(){
 		if(!ft){
 			ab();
