@@ -34,8 +34,8 @@ var publicPath = path.join(__dirname,'public');
 app.use('/public',express.static(publicPath));
 
 //监听端口9999，用来启动服务
-app.listen(9988,function(){
-	console.log('server run at port 9988')
+app.listen(16902,function(){
+	console.log('server run at port 16902')
 });
 
 //模块导出
